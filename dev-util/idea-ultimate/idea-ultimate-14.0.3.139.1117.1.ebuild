@@ -19,7 +19,7 @@ HOMEPAGE="http://jetbrains.com/idea/"
 SRC_URI="http://download-cf.jetbrains.com/${MY_PN}/${MY_PN}IU-$(get_version_component_range 1-3).tar.gz"
 # LICENSE="Apache-2.0"
 IUSE=""
-KEYWORDS="~x86 ~amd64"
+KEYWORDS="x86 amd64"
 S="${WORKDIR}/${MY_PN}-IU-${MY_PV}"
 
 src_install() {
