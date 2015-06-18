@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+
+<repositories version="1.0">
+	<repo priority="50" quality="experimental" status="unofficial">
+		<name>tux</name>
+		<description>some newest portage not update for personal use.</description>
+		<homepage>https://github.com/tarlaw/tux</homepage>
+		<owner>
+			<email>echolee.lua@gmail.com</email>
+		</owner>
+		<source type="git">https://github.com/tarlaw/tux.git</source>
+	</repo>
+</repositories>
